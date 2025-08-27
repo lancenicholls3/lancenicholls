@@ -1,0 +1,39 @@
+title: "Your Name"
+description: "Engineer | Biomechanics | Footwear | Data"
+url: "https://YOUR-USERNAME.github.io" # update to your custom domain later
+theme: null
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
+navigation:
+  - title: "Projects"
+    url: /projects/
+  - title: "Resume"
+    url: /resume/
+  - title: "About"
+    url: /about/
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: single
+      author_profile: false
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: false
+
+author:
+  name: "Your Name"
+  links:
+    - label: "GitHub"
+      url: "https://github.com/YOUR-USERNAME"
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/YOUR-HANDLE/"
