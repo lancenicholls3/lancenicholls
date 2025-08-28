@@ -6,16 +6,18 @@ sidebar:
   nav: "main"
 ---
 
-
-Below are selected engineering projects.
+Here are some of my selected engineering projects.
 
 {% assign posts = site.projects | sort: 'date' | reverse %}
-<ul>
-{% for p in posts %}
-  <li>
-    <a href="{{ p.url | relative_url }}"><strong>{{ p.title }}</strong></a>
-    — {{ p.subtitle | default: p.summary | default: p.excerpt }}
-  </li>
-{% endfor %}
-</ul>
-
+<div class="project-gallery">
+  {% for p in posts %}
+    <div class="project-card">
+      <a href="{{ p.url | relative_url }}">
+        <h3>{{ p.title }}</h3>
+        {% if p.thumbnail %}
+          <img src="{{ p.thumbnail | relative_url }}" alt="{{ p.title }} cover image">
+        {% endif %}
+      </a>
+    </div>
+  {% endfor %}
+</div>
