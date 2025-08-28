@@ -2,7 +2,10 @@
 layout: single
 title: "Resume"
 permalink: /resume/
+sidebar:
+  nav: "main"
 ---
+
 
 [Download PDF](/assets/pdfs/Copy of Lance Nicholls Resume 2025-6-3.pdf)
 
