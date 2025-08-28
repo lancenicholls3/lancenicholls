@@ -69,16 +69,6 @@ body {
   color: #fff !important; border-left-color: #fff !important;
 }
 
-/* Push the page content down and right so nothing sits under masthead/sidebar */
-.page__content,
-.page {
-  margin-top: calc(var(--masthead-h) + 10px) !important;
-  margin-left: 240px !important; /* sidebar width + a little gap */
-}
-
-/* If your page title still looks too low/high, nudge it here */
-h1.page__title { margin-top: .25rem !important; }
-
 
 /* MAIN CONTENT: push right so it doesn’t overlap sidebar */
 .page__content {
