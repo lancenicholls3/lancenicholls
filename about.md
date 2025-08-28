@@ -27,10 +27,10 @@ classes: wide
 
 ### Gallery
 
-<img src="/assets/images/IMG_0040.JPG" alt="Gallery photo" style="max-width: 30%; margin:5px; border-radius:8px;">
-<img src="/assets/images/IMG_0496.jpg" alt="Gallery photo" style="max-width: 30%; margin:5px; border-radius:8px;">
-<img src="/assets/images/IMG_6609.JPG" alt="Gallery photo" style="max-width: 30%; margin:5px; border-radius:8px;">
-<img src="/assets/images/IMG_7506.jpg" alt="Gallery photo" style="max-width: 30%; margin:5px; border-radius:8px;">
+<img src="/assets/images/IMG_0040.JPG" alt="Gallery photo" style="width:200px; height:200px; object-fit:cover; margin:5px;">
+<img src="/assets/images/IMG_0496.jpg" alt="Gallery photo" style="width:200px; height:200px; object-fit:cover; margin:5px;">
+<img src="/assets/images/IMG_6609.JPG" alt="Gallery photo" style="width:200px; height:200px; object-fit:cover; margin:5px;">
+<img src="/assets/images/IMG_7506.jpg" alt="Gallery photo" style="width:200px; height:200px; object-fit:cover; margin:5px;">
 
 
 ---
