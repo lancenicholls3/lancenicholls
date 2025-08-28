@@ -1,48 +1,33 @@
----
----
-
-@import "minimal-mistakes";
-
-/* Site background */
-body { background:#e6f2ff !important; }
-
-/* TOP BAR: black background, white text */
-.masthead,
-.masthead__inner-wrap,
-.greedy-nav { background:#000 !important; }
-
-.masthead .site-title,
-.masthead .site-title a,
-.greedy-nav a,
-.greedy-nav .visible-links a,
-.greedy-nav .hidden-links a,
-.masthead__menu-item a { color:#fff !important; }
-
-.greedy-nav a:hover,
-.masthead .site-title a:hover,
-.masthead__menu-item a:hover { color:#ddd !important; }
-
-.greedy-nav__toggle,
-.search__toggle { color:#fff !important; }
-
-/* SIDEBAR: gray background with white text */
+/* SIDEBAR: full height, flush to left, gray background with white text */
 .sidebar {
-  background:#333 !important;   /* dark gray */
-  color:#fff !important;        /* white text */
+  background: #333 !important;   /* dark gray */
+  color: #fff !important;
+  position: fixed;               /* lock it in place */
+  top: 0;
+  left: 0;
+  bottom: 0;                     /* stretch to bottom */
+  width: 220px;                  /* set your preferred width */
+  padding: 20px;
+  overflow-y: auto;              /* scroll if sidebar is taller than screen */
+  height: 100vh;                 /* force full viewport height */
 }
 
 .sidebar .nav__title,
 .sidebar .nav__sub-title,
-.sidebar .nav__list .nav__items a { color:#fff !important; }
+.sidebar .nav__list .nav__items a {
+  color: #fff !important;
+}
 
 .sidebar .nav__list .nav__items a:hover {
-  color:#ddd !important;
+  color: #ddd !important;
 }
 
 .sidebar .nav__list .nav__items .active a {
-  color:#fff !important;
-  border-left-color:#fff !important;
+  color: #fff !important;
+  border-left-color: #fff !important;
 }
 
-/* Optional: remove border under masthead */
-.masthead { box-shadow:none !important; border-bottom:0 !important; }
+/* Push main content to the right so it doesn’t overlap */
+.page__content {
+  margin-left: 240px;   /* slightly bigger than sidebar width */
+}
