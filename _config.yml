@@ -1,8 +1,12 @@
 title: "Lance Nicholls"
 description: "Mechanical Engineering • Biomechanics • Running"
-url: "https://lancenicholls3.github.io"
+url: "https://YOUR-USERNAME.github.io"   # your user site URL
+baseurl: ""                               # <-- IMPORTANT: empty for user sites
+
 theme: null
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: default
+
 
 markdown: kramdown
 kramdown: { input: GFM }
