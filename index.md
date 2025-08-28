@@ -3,7 +3,10 @@ layout: single
 title: "About"
 permalink: /
 classes: wide
+sidebar:
+  nav: "main"
 ---
+
 
 <div style="display:flex; align-items:flex-start; gap:20px; flex-wrap:wrap;">
 
