@@ -23,7 +23,8 @@ sidebar:
       <strong>innovative biomechanical technologies, whether it be performance footwear that pushes human potential or medical
       devices that improve lives.
     </p>
-  </div>
+        
+    </div>
 </div>
 
 ---
