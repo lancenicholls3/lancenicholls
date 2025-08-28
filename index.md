@@ -8,7 +8,8 @@ sidebar:
 ---
 
 <div style="display:flex; align-items:flex-start; gap:20px; flex-wrap:wrap;">
-  <img src="/assets/images/IMG_3989.jpg" alt="Photo of me" style="max-width:300px; border-radius:12px;">
+  <img src="{{ '/assets/images/IMG_3989.jpg' | relative_url }}" alt="Photo of me" style="width:300px; height:300px; object-fit:cover; border-radius:50%;">
+
 
   <div style="flex:1; min-width:260px;">
     <p>
@@ -32,7 +33,7 @@ sidebar:
 
 ### Gallery
 
-<img src="/assets/images/IMG_0040.JPG" style="max-width:30%;margin:5px;border-radius:8px;">
-<img src="/assets/images/IMG_0496.jpg" style="max-width:30%;margin:5px;border-radius:8px;">
-<img src="/assets/images/IMG_6609.JPG" style="max-width:30%;margin:5px;border-radius:8px;">
-<img src="/assets/images/IMG_7506.jpg" style="max-width:30%;margin:5px;border-radius:8px;">
+<img src="/assets/images/IMG_0040.JPG" style="width:200px; height:200px; object-fit:cover; margin:5px;">
+<img src="/assets/images/IMG_0496.jpg" style="width:200px; height:200px; object-fit:cover; margin:5px;">
+<img src="/assets/images/IMG_6609.JPG" style="width:200px; height:200px; object-fit:cover; margin:5px;">
+<img src="/assets/images/IMG_7506.jpg" style="width:200px; height:200px; object-fit:cover; margin:5px;">
