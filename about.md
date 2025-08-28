@@ -8,7 +8,9 @@ classes: wide
 <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
 
   <!-- Main Photo -->
-  <img src="{{ '/assets/images/IMG_3989.jpg' | relative_url }}" alt="Photo of me" style="width:300px; height:300px; object-fit:cover; border-radius:50%;">
+  <img src="{{ '/assets/images/IMG_3989.jpg' | relative_url }}"
+     alt="Photo of me"
+     style="width:300px; height:300px; object-fit:cover; border-radius:50%; overflow:hidden;">
 
 
   <!-- Bio Text -->
