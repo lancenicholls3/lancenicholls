@@ -35,18 +35,18 @@ body {
   color: #fff !important;
 }
 
-/* SIDEBAR (full-height, gray with white text) */
+/* SIDEBAR: full height, flush left, starts below masthead */
 .sidebar {
   background: #333 !important;
   color: #fff !important;
   position: fixed;
-  top: 0;
+  top: 60px;       /* offset: adjust to your masthead height */
   left: 0;
   bottom: 0;
   width: 220px;
   padding: 20px;
   overflow-y: auto;
-  height: 100vh;
+  height: calc(100vh - 60px);  /* full height minus masthead */
 }
 
 .sidebar .nav__title,
@@ -63,6 +63,12 @@ body {
   color: #fff !important;
   border-left-color: #fff !important;
 }
+
+/* Push content to the right, still accounting for sidebar */
+.page__content {
+  margin-left: 240px;
+}
+
 
 /* MAIN CONTENT: push right so it doesn’t overlap sidebar */
 .page__content {
