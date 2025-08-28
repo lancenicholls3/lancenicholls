@@ -1,6 +1,6 @@
 ---
 title: "Screw Loading Module"
-subtitle: "Pre-op verification & layout"
+subtitle: "Pre-op verification & layout system"
 date: 2025-08-28
 thumbnail: /assets/images/Screw%20Loading%20Module.png
 ---
@@ -12,11 +12,8 @@ The design accommodates up to **20 pedicle screws**, enabling surgeons to **pred
 By integrating this module into the workflow, surgeons can prepare their instrumentation in advance, which significantly **reduces surgical time and lowers the risk of error**.  
 The result is a more reliable and efficient pre-op process that enhances both surgeon confidence and patient safety.
 
-### Gallery
-
-<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-
 ### Interactive Model
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 <model-viewer
   src="/assets/models/Screw%20Loading%20Module.glb"
   camera-controls
@@ -28,5 +25,5 @@ The result is a more reliable and efficient pre-op process that enhances both su
 ### Gallery
 ![cover](/assets/images/Screw%20Loading%20Module.png)
 
-### Drawing (PDF)
-[Open the drawing](/assets/images/Screw%20Loading%20Module%20Drawing.pdf)
+### Drawing
+[Open the Screw Loading Module Drawing (PDF)](/assets/pdfs/Screw%20Loading%20Module%20Drawing.pdf)
