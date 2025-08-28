@@ -15,18 +15,30 @@ This technical decision allowed surgeons to **demo nearly any tool or instrument
 
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
-### Interactive Model
-<model-viewer
-  src="/assets/models/Spine%20Model%20Force%20System.glb"
-  camera-controls
-  auto-rotate
-  alt="3D view of Spine Model Force System"
-  style="width:100%;height:520px;">
-</model-viewer>
+---
 
 ### Gallery
 ![cover](/assets/images/Spine%20Model%20Force%20System.png)
 
-<!-- HEIC images may not display in some browsers. Convert to .jpg/.png if they don't render. -->
 ![IMG_1625](/assets/images/IMG_1625.HEIC)
 ![IMG_1635](/assets/images/IMG_1635.HEIC)
+
+### Interactive Model
+
+<p><em>Note: This is a large file and may take time to load. If it doesn’t appear, try refreshing the page or opening it on a desktop browser.</em></p>
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<model-viewer
+  src="{{ '/assets/models/Spine Model Force System.glb' | relative_url }}"
+  camera-controls
+  auto-rotate
+  style="width:100%; height:520px;"
+  alt="Interactive 3D model of Spine Model Force System">
+</model-viewer>
+
+<p style="margin-top:8px;">
+  Can’t see the viewer? 
+  <a href="{{ '/assets/models/Spine Model Force System.glb' | relative_url }}" target="_blank" rel="noopener">
+    Open or download the model directly
+  </a>.
+</p>
