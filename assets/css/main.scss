@@ -6,7 +6,7 @@
 /* Site background */
 body { background:#e6f2ff !important; }
 
-/* TOP BAR: make everything black w/ white text */
+/* TOP BAR: black background, white text */
 .masthead,
 .masthead__inner-wrap,
 .greedy-nav { background:#000 !important; }
@@ -25,19 +25,24 @@ body { background:#e6f2ff !important; }
 .greedy-nav__toggle,
 .search__toggle { color:#fff !important; }
 
-/* SIDEBAR: make text black */
-.sidebar,
-.sidebar p,
-.nav__title,
-.nav__sub-title { color:#000 !important; }
-
-.sidebar .nav__list .nav__items a { color:#000 !important; }
-.sidebar .nav__list .nav__items a:hover { color:#333 !important; }
-.sidebar .nav__list .nav__items .active a {
-  color:#000 !important;
-  border-left-color:#000 !important;
+/* SIDEBAR: gray background with white text */
+.sidebar {
+  background:#333 !important;   /* dark gray */
+  color:#fff !important;        /* white text */
 }
 
-/* Optional: remove any white bar/border under the masthead */
-.masthead { box-shadow:none !important; border-bottom:0 !important; }
+.sidebar .nav__title,
+.sidebar .nav__sub-title,
+.sidebar .nav__list .nav__items a { color:#fff !important; }
 
+.sidebar .nav__list .nav__items a:hover {
+  color:#ddd !important;
+}
+
+.sidebar .nav__list .nav__items .active a {
+  color:#fff !important;
+  border-left-color:#fff !important;
+}
+
+/* Optional: remove border under masthead */
+.masthead { box-shadow:none !important; border-bottom:0 !important; }
