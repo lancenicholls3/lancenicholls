@@ -46,19 +46,30 @@ body {
     background: #333 !important;
     color: #fff !important;
     position: fixed;
-    top: 0; left: 0; bottom: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
     width: 220px;
     padding: 0 20px 40px;
     overflow-y: auto;
-    height: 100vh;
+
+    /* Force full height */
+    min-height: 100vh;
+    height: 100vh !important;
   }
 
-  /* Push links down to clear the masthead (tune this value) */
-  .sidebar .nav__list { margin-top: 100px; }
+  /* Push links down to clear the masthead (tweak this value if needed) */
+  .sidebar .nav__list {
+    margin-top: 100px;
+  }
 
-  /* Page content sits to the right of the sidebar */
-  .page__content, .page { margin-left: 240px; }
+  /* Push content right so it doesn’t overlap sidebar */
+  .page__content,
+  .page {
+    margin-left: 240px;
+  }
 }
+
 
 /* Phones / small tablets */
 @media (max-width: 991.98px) {
