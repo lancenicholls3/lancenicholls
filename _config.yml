@@ -1,4 +1,4 @@
-title: "Lance"
+title: "Lance Nicholls"
 description: "Engineer | Biomechanics | Footwear | Data"
 url: "https://lancenicholls3.github.io"   # update to https://yourname.com after adding a CNAME
 theme: null
@@ -48,7 +48,7 @@ plugins:
 
 # Author / social (optional)
 author:
-  name: "Lance"
+  name: "Lance Nicholls"
   links:
     - label: "GitHub"
       url: "https://github.com/lancenicholls3"
