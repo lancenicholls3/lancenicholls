@@ -68,3 +68,41 @@ body {
 .page__content {
   margin-left: 240px;
 }
+
+/* --- Resume page card & frame --- */
+.resume-card {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.08);
+  margin: 0 0 2rem;
+  overflow: hidden;
+}
+
+/* Sticky action bar so buttons stay visible while scrolling */
+.resume-actions {
+  background: #f5f5f5;
+  padding: 10px;
+  position: sticky;
+  top: 70px;             /* adjust if your masthead height differs */
+  z-index: 2;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* Fill the width; give it a sensible, viewport-based height */
+.resume-frame {
+  width: 100%;
+  height: calc(100vh - 160px);  /* desktop: almost full height */
+  border: 0;
+  display: block;
+}
+
+/* Tweak spacing so the title doesn't push content way down */
+h1.page__title { margin-top: .5rem; }
+
+/* Mobile: give the PDF full-screen height */
+@media (max-width: 768px) {
+  .resume-frame { height: 100vh; }
+}
+
