@@ -5,6 +5,7 @@ date: 2025-08-28
 thumbnail: /assets/images/Screw%20Removal%20Tool.png
 ---
 
+### Description
 I redesigned a surgical screw removal tool to accommodate **10+ different pedicle screw types**, making it significantly more versatile in clinical use.  
 
 To improve surgeon ergonomics, I integrated **welded handles** that enhanced grip and usability during procedures.  
