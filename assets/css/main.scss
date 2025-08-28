@@ -1,15 +1,52 @@
-/* SIDEBAR: full height, flush to left, gray background with white text */
-.sidebar {
-  background: #333 !important;   /* dark gray */
+---
+---
+
+@import "minimal-mistakes";
+
+/* SITE BACKGROUND (all pages) */
+body {
+  background: #e6f2ff !important;  /* light blue */
+}
+
+/* TOP BAR (masthead) */
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav {
+  background: #000 !important;  /* black bar */
+}
+
+.masthead .site-title,
+.masthead .site-title a,
+.greedy-nav a,
+.greedy-nav .visible-links a,
+.greedy-nav .hidden-links a,
+.masthead__menu-item a {
+  color: #fff !important;       /* white text */
+}
+
+.greedy-nav a:hover,
+.masthead .site-title a:hover,
+.masthead__menu-item a:hover {
+  color: #ddd !important;       /* gray hover */
+}
+
+.greedy-nav__toggle,
+.search__toggle {
   color: #fff !important;
-  position: fixed;               /* lock it in place */
+}
+
+/* SIDEBAR (full-height, gray with white text) */
+.sidebar {
+  background: #333 !important;
+  color: #fff !important;
+  position: fixed;
   top: 0;
   left: 0;
-  bottom: 0;                     /* stretch to bottom */
-  width: 220px;                  /* set your preferred width */
+  bottom: 0;
+  width: 220px;
   padding: 20px;
-  overflow-y: auto;              /* scroll if sidebar is taller than screen */
-  height: 100vh;                 /* force full viewport height */
+  overflow-y: auto;
+  height: 100vh;
 }
 
 .sidebar .nav__title,
@@ -27,7 +64,7 @@
   border-left-color: #fff !important;
 }
 
-/* Push main content to the right so it doesn’t overlap */
+/* MAIN CONTENT: push right so it doesn’t overlap sidebar */
 .page__content {
-  margin-left: 240px;   /* slightly bigger than sidebar width */
+  margin-left: 240px;
 }
