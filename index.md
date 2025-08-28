@@ -16,7 +16,7 @@ sidebar:
 
   <div style="flex:1; min-width:260px;">
     <p>
-      I’m a junior at Johns Hopkins majoring in Mechanical Engineering with minors in
+      I’m a senior at Johns Hopkins majoring in Mechanical Engineering with minors in
       Psychology and Applied Math & Statistics, and I compete on the varsity cross-country
       and track teams. My experience as an athlete sparked a passion for biomechanics, which I’ve explored
       through research and hands-on engineering projects.
