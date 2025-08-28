@@ -35,39 +35,41 @@ body {
   color: #fff !important;
 }
 
-/* ===== Layout offsets (use one variable) ===== */
-:root { --masthead-h: 100px; }  /* tweak this number until it looks perfect */
+/* Keep your existing colors (light blue bg, black masthead, etc.) */
 
-/* Fix the masthead to the top so we can reliably offset content */
-.masthead,
-.masthead__inner-wrap,
-.greedy-nav {
-  position: fixed !important;
-  top: 0; left: 0; right: 0;
-  z-index: 1000;
-}
+/* --- Sidebar: same layout as theme, just darker and lowered --- */
+:root { --sidebar-top: 96px; } /* tweak if the first item is still clipped */
 
-/* Sidebar: full height, start below the masthead */
 .sidebar {
-  background: #333 !important;
-  color: #fff !important;
-  position: fixed !important;
-  top: var(--masthead-h) !important;
-  left: 0; bottom: 0;
-  width: 220px;
-  padding: 20px 20px 40px;
-  overflow-y: auto;
-  height: calc(100vh - var(--masthead-h)) !important;
+  background: #333 !important;   /* gray */
+  color: #fff !important;        /* white text */
+  /* use sticky, not fixed — doesn't move the main content */
+  position: sticky;
+  top: var(--sidebar-top);       /* pushes it down below the masthead */
+  min-height: calc(100vh - var(--sidebar-top));
+  overflow: auto;
+  /* keep the theme’s width/margins; no margin-left hacks */
 }
 
-/* Sidebar link colors */
 .sidebar .nav__title,
 .sidebar .nav__sub-title,
 .sidebar .nav__list .nav__items a { color: #fff !important; }
+
 .sidebar .nav__list .nav__items a:hover { color: #ddd !important; }
+
 .sidebar .nav__list .nav__items .active a {
-  color: #fff !important; border-left-color: #fff !important;
+  color: #fff !important;
+  border-left-color: #fff !important;
 }
+
+/* Make sure masthead + content use default positioning again */
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav { position: static !important; }
+
+.page,
+.page__content { margin-top: 0 !important; margin-left: 0 !important; }
+
 
 
 /* MAIN CONTENT: push right so it doesn’t overlap sidebar */
