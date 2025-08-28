@@ -41,7 +41,6 @@ sidebar:
 
 ### Gallery
 
-<!-- Tip: HEICs don't render in many browsers—convert to JPG/PNG if needed -->
 <img src="/assets/images/IMG_0040.JPG" alt="Gallery photo" style="max-width:30%; margin:5px; border-radius:8px;">
 <img src="/assets/images/IMG_0496.jpg" alt="Gallery photo" style="max-width:30%; margin:5px; border-radius:8px;">
 <img src="/assets/images/IMG_6609.JPG" alt="Gallery photo" style="max-width:30%; margin:5px; border-radius:8px;">
