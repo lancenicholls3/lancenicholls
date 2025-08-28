@@ -3,15 +3,41 @@
 
 @import "minimal-mistakes";
 
-body {
-  background-color: #e6f2ff !important;
-}
+/* Site background */
+body { background:#e6f2ff !important; }
 
+/* TOP BAR: make everything black w/ white text */
 .masthead,
-.masthead__inner-wrap {
-  background-color: #000 !important;
+.masthead__inner-wrap,
+.greedy-nav { background:#000 !important; }
+
+.masthead .site-title,
+.masthead .site-title a,
+.greedy-nav a,
+.greedy-nav .visible-links a,
+.greedy-nav .hidden-links a,
+.masthead__menu-item a { color:#fff !important; }
+
+.greedy-nav a:hover,
+.masthead .site-title a:hover,
+.masthead__menu-item a:hover { color:#ddd !important; }
+
+.greedy-nav__toggle,
+.search__toggle { color:#fff !important; }
+
+/* SIDEBAR: make text black */
+.sidebar,
+.sidebar p,
+.nav__title,
+.nav__sub-title { color:#000 !important; }
+
+.sidebar .nav__list .nav__items a { color:#000 !important; }
+.sidebar .nav__list .nav__items a:hover { color:#333 !important; }
+.sidebar .nav__list .nav__items .active a {
+  color:#000 !important;
+  border-left-color:#000 !important;
 }
 
-.masthead a {
-  color: #fff !important;
-}
+/* Optional: remove any white bar/border under the masthead */
+.masthead { box-shadow:none !important; border-bottom:0 !important; }
+
