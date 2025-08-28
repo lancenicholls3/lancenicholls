@@ -4,11 +4,20 @@ title: "Resume"
 permalink: /resume/
 sidebar:
   nav: "main"
+classes: wide
 ---
 
+<div class="resume-card">
+  <div class="resume-actions">
+    <a class="btn" href="{{ '/assets/pdfs/Lance_Nicholls_Resume.pdf' | relative_url }}" download>Download PDF</a>
+    <a class="btn" href="{{ '/assets/pdfs/Lance_Nicholls_Resume.pdf' | relative_url }}" target="_blank" rel="noopener">Open in new tab</a>
+  </div>
 
-[Download PDF](/assets/pdfs/Lance_Nicholls_Resume.pdf)
+  <!-- Responsive PDF embed -->
+  <iframe
+    class="resume-frame"
+    src="{{ '/assets/pdfs/Lance_Nicholls_Resume.pdf' | relative_url }}#zoom=page-width&view=FitH"
+    title="Resume PDF">
+  </iframe>
+</div>
 
-<object data="/assets/pdfs/Lance_Nicholls_Resume.pdf" type="application/pdf" width="100%" height="800px">
-  <p>Your browser can’t display PDFs. Please use the link above to download.</p>
-</object>
