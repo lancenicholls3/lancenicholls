@@ -5,6 +5,15 @@ date: 2025-08-28
 thumbnail: /assets/images/Screw%20Loading%20Module.png
 ---
 
+### Description
+I developed a **screw loading module** to streamline **pre-operative verification** for spinal surgeries.  
+The design accommodates up to **20 pedicle screws**, enabling surgeons to **predetermine screw selection** and efficiently verify both length and diameter before the procedure.  
+
+By integrating this module into the workflow, surgeons can prepare their instrumentation in advance, which significantly **reduces surgical time and lowers the risk of error**.  
+The result is a more reliable and efficient pre-op process that enhances both surgeon confidence and patient safety.
+
+### Gallery
+
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
 ### Interactive Model
