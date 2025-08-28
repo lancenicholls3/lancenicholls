@@ -1,9 +1,13 @@
-title: "Your Name"
+title: "Lance"
 description: "Engineer | Biomechanics | Footwear | Data"
-url: "https://lancenicholls.github.io" # update to your custom domain later
+url: "https://lancenicholls3.github.io"   # update to https://yourname.com after adding a CNAME
 theme: null
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
+# Optional: pick a Minimal Mistakes skin
+# minimal_mistakes_skin: default
+
+# Navigation
 navigation:
   - title: "Projects"
     url: /projects/
@@ -12,11 +16,13 @@ navigation:
   - title: "About"
     url: /about/
 
+# Collections for project pages
 collections:
   projects:
     output: true
     permalink: /projects/:title/
 
+# Defaults
 defaults:
   - scope:
       path: ""
@@ -30,10 +36,24 @@ defaults:
       layout: single
       author_profile: false
 
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-archives
+
+# Author / social (optional)
 author:
-  name: "Your Name"
+  name: "Lance"
   links:
     - label: "GitHub"
-      url: "https://github.com/lancenicholls"
+      url: "https://github.com/lancenicholls3"
     - label: "LinkedIn"
       url: "https://www.linkedin.com/in/lance-nicholls-0421561b4/"
+
+# (Optional) Analytics later:
+# google_analytics: G-XXXXXXXX
