@@ -40,13 +40,13 @@ body {
   background: #333 !important;
   color: #fff !important;
   position: fixed;
-  top: 60px;       /* offset: adjust to your masthead height */
+  top: 80px;       /* was 60px → now lower */
   left: 0;
   bottom: 0;
   width: 220px;
   padding: 20px;
   overflow-y: auto;
-  height: calc(100vh - 60px);  /* full height minus masthead */
+  height: calc(100vh - 80px);  /* subtract same offset */
 }
 
 .sidebar .nav__title,
