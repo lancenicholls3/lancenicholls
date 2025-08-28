@@ -8,7 +8,10 @@ sidebar:
 ---
 
 <div style="display:flex; align-items:flex-start; gap:20px; flex-wrap:wrap;">
-  <img src="{{ '/assets/images/IMG_3989.jpg' | relative_url }}" alt="Photo of me" style="width:300px; height:300px; object-fit:cover; border-radius:50%;">
+  <img src="{{ '/assets/images/IMG_3989.jpg' | relative_url }}"
+     alt="Photo of me"
+     style="width:300px; height:300px; object-fit:cover; border-radius:50%; overflow:hidden;">
+
 
 
   <div style="flex:1; min-width:260px;">
@@ -33,7 +36,8 @@ sidebar:
 
 ### Gallery
 
-<img src="/assets/images/IMG_0040.JPG" style="width:200px; height:200px; object-fit:cover; margin:5px;">
-<img src="/assets/images/IMG_0496.jpg" style="width:200px; height:200px; object-fit:cover; margin:5px;">
-<img src="/assets/images/IMG_6609.JPG" style="width:200px; height:200px; object-fit:cover; margin:5px;">
-<img src="/assets/images/IMG_7506.jpg" style="width:200px; height:200px; object-fit:cover; margin:5px;">
+<img src="{{ '/assets/images/IMG_0040.JPG' | relative_url }}" style="width:200px; height:200px; object-fit:cover; margin:5px;">
+<img src="{{ '/assets/images/IMG_0496.jpg' | relative_url }}" style="width:200px; height:200px; object-fit:cover; margin:5px;">
+<img src="{{ '/assets/images/IMG_6609.JPG' | relative_url }}" style="width:200px; height:200px; object-fit:cover; margin:5px;">
+<img src="{{ '/assets/images/IMG_7506.jpg' | relative_url }}" style="width:200px; height:200px; object-fit:cover; margin:5px;">
+
