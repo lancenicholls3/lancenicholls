@@ -1,0 +1,21 @@
+/* Change the background color of the whole site */
+body {
+  background-color: #e6f2ff; /* light blue */
+}
+
+/* Top navigation bar background */
+.masthead,
+.masthead__inner-wrap {
+  background-color: #000000 !important; /* black */
+}
+
+/* Top nav text */
+.masthead a,
+.masthead__menu-item a {
+  color: #ffffff !important; /* white */
+}
+
+/* Optional: hover effect */
+.masthead a:hover {
+  color: #cccccc !important; /* light gray */
+}
