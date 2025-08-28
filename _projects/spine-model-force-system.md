@@ -5,6 +5,13 @@ date: 2025-08-28
 thumbnail: /assets/images/Spine%20Model%20Force%20System.png
 ---
 
+I designed a biomechanical force system to simulate forces within the body on both **pediatric and adult plastic spine models**.  
+
+The setup used an **adjustable pegboard with eyebolts and springs** of varying stiffness. These could be stretched across a wide distance range, applying **0.5–20 lbf** to any vertebrae from **200+ positions** both laterally and radially.  
+
+This technical decision allowed surgeons to **demo nearly any tool or instrument** thanks to the high degree of customizability.
+
+
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
 ### Interactive Model
