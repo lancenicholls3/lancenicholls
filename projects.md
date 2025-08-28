@@ -2,7 +2,10 @@
 layout: single
 title: "Projects"
 permalink: /projects/
+sidebar:
+  nav: "main"
 ---
+
 
 Below are selected engineering projects.
 
