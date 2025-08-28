@@ -37,18 +37,21 @@ body {
 
 /* Keep your existing colors (light blue bg, black masthead, etc.) */
 
-/* --- Sidebar: same layout as theme, just darker and lowered --- */
-:root { --sidebar-top: 96px; } /* tweak if the first item is still clipped */
-
+/* --- Sidebar: gray background all the way up, links pushed down --- */
 .sidebar {
-  background: #333 !important;   /* gray */
-  color: #fff !important;        /* white text */
-  /* use sticky, not fixed — doesn't move the main content */
-  position: sticky;
-  top: var(--sidebar-top);       /* pushes it down below the masthead */
-  min-height: calc(100vh - var(--sidebar-top));
-  overflow: auto;
-  /* keep the theme’s width/margins; no margin-left hacks */
+  background: #333 !important;   /* dark gray background */
+  color: #fff !important;
+  position: fixed;
+  top: 0; left: 0; bottom: 0;
+  width: 220px;
+  padding: 0 20px 40px;          /* no top padding, only sides + bottom */
+  overflow-y: auto;
+  height: 100vh;
+}
+
+/* Push the nav items down so they clear the masthead */
+.sidebar .nav__list {
+  margin-top: 100px;   /* adjust this until "Projects" clears the top bar */
 }
 
 .sidebar .nav__title,
